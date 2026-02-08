@@ -17,7 +17,7 @@ const Footer = () => {
           {/* Valentine's Week Timeline */}
           <div className="mb-12">
             <h3 className="text-xl font-display text-chocolate-white mb-6 opacity-80">
-              Valentine's Week 2024
+              Valentine's Week 2026
             </h3>
             <div className="flex flex-wrap justify-center gap-3">
               {[
@@ -33,8 +33,8 @@ const Footer = () => {
                 <motion.div
                   key={item.day}
                   className={`px-3 py-2 rounded-full text-sm ${item.active
-                      ? 'bg-caramel text-primary font-semibold'
-                      : 'bg-primary-foreground/10 text-chocolate-white/70'
+                    ? 'bg-caramel text-primary font-semibold'
+                    : 'bg-primary-foreground/10 text-chocolate-white/70'
                     }`}
                   initial={{ opacity: 0, scale: 0.8 }}
                   whileInView={{ opacity: 1, scale: 1 }}

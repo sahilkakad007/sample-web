@@ -2,16 +2,16 @@
 import { motion } from 'framer-motion';
 
 const ChocolateLetter = () => {
-    const letterContent = `My Dearest,
+    const letterContent = `My Love,
 
-From the moment you walked into my life, everything became sweeter. 
-You are my favorite flavor of joy, my daily dose of happiness, and the one person who melts my heart.
+From the moment you became a part of my life, everything felt warmer and sweeter.
+You are my favorite thought, my everyday smile, and the one who effortlessly makes my heart feel full.
 
-This Chocolate Day, I want to remind you that no chocolate in the world is as sweet as your smile.
-Thank you for making life delicious.
+This Chocolate Day, I just want you to know that no chocolate in the world can match the sweetness you bring into my life.
+Thank you for being you and for making every day feel special.
 
 Forever yours,
-Your Secret Admirer ❤️`;
+Only Yours Duduu 💖🍫`;
 
     return (
         <div className="max-w-2xl mx-auto my-16 px-6">

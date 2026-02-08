@@ -3,10 +3,10 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 
 const photos = [
-    { id: 1, url: 'https://images.unsplash.com/photo-1511367461989-f85a21fda167?w=400&h=400&fit=crop', caption: 'Sweet Beginnings' },
-    { id: 2, url: 'https://images.unsplash.com/photo-1549488344-c7052fb51661?w=400&h=400&fit=crop', caption: 'Our First Coffee' },
-    { id: 3, url: 'https://images.unsplash.com/photo-1623341214825-9f4f963727da?w=400&h=400&fit=crop', caption: 'Choco Date' },
-    { id: 4, url: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&h=400&fit=crop', caption: 'Adventures' },
+    { id: 1, url: '/memories/20250914_142440.jpg', caption: 'Sweet Beginnings' },
+    { id: 2, url: '/memories/20250914_143413.jpg', caption: 'Our Best Moments' },
+    { id: 3, url: '/memories/20250914_151106.jpg', caption: 'fav date' },
+    { id: 4, url: '/memories/20250914_165728.jpg', caption: 'Adventures' },
 ];
 
 const PolaroidGallery = () => {
@@ -14,7 +14,7 @@ const PolaroidGallery = () => {
 
     return (
         <div className="py-16 overflow-hidden">
-            <h3 className="text-3xl font-display font-bold text-center text-chocolate-white mb-12">
+            <h3 className="text-3xl font-display font-bold text-center text-chocolate-900 mb-12">
                 Our Sweetest Memories 📸
             </h3>
 

@@ -10,7 +10,6 @@ const SentimentalSection = () => {
 
             <div className="relative z-10">
                 <PolaroidGallery />
-                <PhotoTimeline />
                 <ChocolateLetter />
             </div>
         </section>

@@ -4,7 +4,7 @@ import YesNoButton from './games/YesNoButton';
 import LoveMeter from './games/LoveMeter';
 import MemoryQuiz from './games/MemoryQuiz';
 import ChocolateGenerator from './games/ChocolateGenerator';
-import SimpleMaze from './games/SimpleMaze';
+import LoveCatcher from './games/LoveCatcher';
 
 const GamesSection = () => {
     return (
@@ -16,10 +16,10 @@ const GamesSection = () => {
                     viewport={{ once: true }}
                     className="text-center mb-12"
                 >
-                    <h2 className="text-4xl font-display font-bold text-chocolate-white text-shadow-chocolate mb-4">
+                    <h2 className="text-4xl font-display font-bold text-chocolate-900 text-shadow-sm mb-4">
                         Fun & Games Zone 🎲
                     </h2>
-                    <p className="text-chocolate-white/70">Let's play some sweet games together!</p>
+                    <p className="text-chocolate-800 font-medium text-lg">Let's play some sweet games together!</p>
                 </motion.div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
@@ -29,7 +29,7 @@ const GamesSection = () => {
                     </div>
                     <div className="space-y-12">
                         <LoveMeter />
-                        <SimpleMaze />
+                        <LoveCatcher />
                         <YesNoButton />
                     </div>
                 </div>
